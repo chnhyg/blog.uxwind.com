@@ -1,0 +1,33 @@
+# Navbar
+menu:
+  Home: /
+  Archives: /archives/
+  Tags: /tags/
+  About: /about/
+
+# Site icon
+favicon: /favicon.ico
+
+# Comments
+comments:
+  post: true
+  about: true
+# Duoshuo
+duoshuo_shortname: uxwind
+# Disqus
+# disqus_shortname: uxwind
+
+# Social links
+social:
+  github: https://github.com/chnhyg
+  coding: https://coding.net/u/chnhyg
+  twitter: https://twitter.com/chnhyg
+  # facebook: https://www.facebook.com/chnhyg
+  email: mailto:chn.yslner@outlook.com
+  rss: /atom.xml
+  # stack-overflow:
+  # weibo:
+  # zhihu:
+
+# Miscellaneous
+# google_analytics:

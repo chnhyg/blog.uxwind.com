@@ -5,6 +5,7 @@
 # Site
 title: 胡阳广的博客
 subtitle: 一分耕耘，一分收获
+keywords: 胡阳广,博客
 description: 胡阳广的博客
 author: 胡阳广
 language: zh-cn
@@ -69,7 +70,7 @@ archive_generator:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: whitelight
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
