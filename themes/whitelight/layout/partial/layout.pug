@@ -10,11 +10,12 @@ html(lang=config.language)
             meta(name="description" contebt=config.description)
         block title
             title= config.title
-        link(rel="stylesheet" type="text/css" href="/styles/style.css")
+        link(rel="stylesheet" type="text/css" href="/styles/normalize.css")
+        link(rel="stylesheet" type="text/css" href="/styles/global.css")
     body
-        header
-            | Header
-        section#container
-            | Hello Kitty
-        footer
-            | Footer
+        #main
+            include header.pug
+            section#container
+                block container
+                    p block container
+            include footer.pug
