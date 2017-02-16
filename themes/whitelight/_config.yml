@@ -2,7 +2,8 @@
 menu:
   Home: /
   Archives: /archives/
-  Tags: /tags/
+  # Categories: /categories/
+  # Tags: /tags/
   About: /about/
 
 # Site icon
