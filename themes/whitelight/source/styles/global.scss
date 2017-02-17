@@ -24,9 +24,22 @@ $global-font-size: 100% !default;
 
 $global-line-height: 1.5 !default;
 
-$global-main-width: 800px !default;
-
-#main {
-  margin: 0 auto;
-  width: $global-main-width;
+::selection {
+  color: $global-white-color;
+  background-color: $global-theme-light-color;
 }
+
+::-moz-selection {
+  color: $global-white-color;
+  background-color: $global-theme-light-color;
+}
+
+.clearfix::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+@import "_partial/layout";

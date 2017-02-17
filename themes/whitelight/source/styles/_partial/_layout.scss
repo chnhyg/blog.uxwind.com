@@ -1,0 +1,27 @@
+$global-main-width: 980px !default;
+
+body {
+  border-top: 2px solid $global-theme-light-color;
+  color: $global-primary-text-color;
+  font-family: $global-font-family;
+  font-size: $global-font-size;
+  line-height: $global-line-height;
+  background-color: $global-white-color;
+}
+
+#main {
+  margin: 0 auto;
+  width: $global-main-width;
+
+  header {
+    margin: 25px auto;
+  }
+
+  #container {
+    margin: 25px auto;
+  }
+
+  footer {
+    margin: 25px auto;
+  }
+}

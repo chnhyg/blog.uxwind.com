@@ -6,9 +6,6 @@ menu:
   # Tags: /tags/
   About: /about/
 
-# Site icon
-favicon: /favicon.ico
-
 # Comments
 comments:
   post: true
