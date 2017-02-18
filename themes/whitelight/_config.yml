@@ -1,5 +1,5 @@
 # Navbar
-menu:
+menus:
   home: /
   archives: /archives/
   # categories: /categories/
@@ -16,7 +16,7 @@ duoshuo_shortname: uxwind
 # disqus_shortname: uxwind
 
 # Social links
-social:
+socials:
   github: https://github.com/chnhyg
   coding: https://coding.net/u/chnhyg
   twitter: https://twitter.com/chnhyg

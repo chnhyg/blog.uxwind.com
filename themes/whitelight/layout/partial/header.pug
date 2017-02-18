@@ -5,16 +5,16 @@ header
         span
             = config.subtitle
     ul.ul-nav
-        each url, text in theme.menu
+        each value, key in theme.menus
             li
                 case true
-                    when text === "home" && is_home()
-                    when text === "archives" && is_archive()
-                    when text === "categories" && is_category()
-                    when text === "tags" && is_tag()
-                    when text === "about" && page.layout === "about"
-                        a.active(href=url)
-                            = __(text)
+                    when key === "home" && is_home()
+                    when key === "archives" && is_archive()
+                    when key === "categories" && is_category()
+                    when key === "tags" && is_tag()
+                    when key === "about" && page.layout === "about"
+                        a.active(href=value)
+                            = __(key)
                     default
-                        a(href=url)
-                            = __(text)
+                        a(href=value)
+                            = __(key)

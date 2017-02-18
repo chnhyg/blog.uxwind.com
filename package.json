@@ -1,9 +1,12 @@
 {
   "name": "chnhyg",
   "title": "Lyon Hu's Blog",
-  "description": "Lyon Hu's Blog",
   "version": "2.0.0",
+  "description": "Lyon Hu's Blog",
   "private": true,
+  "scripts": {
+    "start": "hexo server"
+  },
   "author": {
     "name": "Lyon Hu",
     "email": "chn.yslner@outlook.com",

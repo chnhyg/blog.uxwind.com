@@ -40,8 +40,9 @@ body {
 
         a {
           display: block;
-          padding: 0 25px;
+          width: 100px;
           color: inherit;
+          text-align: center;
 
           &.active, &:hover {
             border-bottom: 2px solid $global-theme-light-color;
@@ -57,5 +58,38 @@ body {
 
   footer {
     margin: 25px auto;
+    line-height: 2;
+    text-align: center;
+
+    ul.ul-socials {
+      text-align: center;
+
+      li {
+        display: inline-block;
+        margin: 0 5px;
+
+        a {
+          display: block;
+          width: 36px;
+          color: inherit;
+          font-size: 24px;
+          text-align: center;
+
+          &:hover {
+            @extend a:hover;
+          }
+
+          &:active {
+            @extend a:active;
+          }
+        }
+      }
+    }
+
+    .copyright {
+      p {
+        margin: 0;
+      }
+    }
   }
 }

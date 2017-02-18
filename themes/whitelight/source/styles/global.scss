@@ -34,6 +34,11 @@ $global-line-height: 1.5 !default;
   background-color: $global-theme-light-color;
 }
 
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   color: $global-theme-primary-color;
   text-decoration: none;
