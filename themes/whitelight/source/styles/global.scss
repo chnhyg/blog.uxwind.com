@@ -34,6 +34,24 @@ $global-line-height: 1.5 !default;
   background-color: $global-theme-light-color;
 }
 
+a {
+  color: $global-theme-primary-color;
+  text-decoration: none;
+  -webkit-transition: color .2s;
+  -moz-transition: color .2s;
+  -ms-transition: color .2s;
+  -o-transition: color .2s;
+  transition: color .2s;
+
+  &:hover {
+    color: $global-theme-light-color;
+  }
+
+  &:active {
+    color: $global-theme-dark-color;
+  }
+}
+
 .clearfix::after {
   content: ".";
   display: block;

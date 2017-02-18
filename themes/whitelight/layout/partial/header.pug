@@ -1,2 +1,20 @@
 header
-    | Header
+    .title-container
+        a(href=url_for('/'))
+            = config.title
+        span
+            = config.subtitle
+    ul.ul-nav
+        each url, text in theme.menu
+            li
+                case true
+                    when text === "home" && is_home()
+                    when text === "archives" && is_archive()
+                    when text === "categories" && is_category()
+                    when text === "tags" && is_tag()
+                    when text === "about" && page.layout === "about"
+                        a.active(href=url)
+                            = __(text)
+                    default
+                        a(href=url)
+                            = __(text)

@@ -15,6 +15,40 @@ body {
 
   header {
     margin: 25px auto;
+    line-height: 2;
+
+    .title-container {
+      a {
+        margin: 0 25px;
+        color: inherit;
+        font-size: 36px;
+        font-weight: bold;
+      }
+
+      span {
+        font-size: 24px;
+      }
+    }
+
+    ul.ul-nav {
+      font-size: 18px;
+      text-align: right;
+
+      li {
+        display: inline-block;
+        margin: 0 5px;
+
+        a {
+          display: block;
+          padding: 0 25px;
+          color: inherit;
+
+          &.active, &:hover {
+            border-bottom: 2px solid $global-theme-light-color;
+          }
+        }
+      }
+    }
   }
 
   #container {
