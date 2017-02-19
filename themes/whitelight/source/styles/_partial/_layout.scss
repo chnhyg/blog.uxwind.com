@@ -1,7 +1,7 @@
 $global-main-width: 980px !default;
 
 body {
-  border-top: 2px solid $global-theme-light-color;
+  border-top: 2px solid $global-theme-primary-color;
   color: $global-primary-text-color;
   font-family: $global-font-family;
   font-size: $global-font-size;
@@ -40,12 +40,13 @@ body {
 
         a {
           display: block;
+          border-bottom: 2px solid transparent;
           width: 100px;
           color: inherit;
           text-align: center;
 
           &.active, &:hover {
-            border-bottom: 2px solid $global-theme-light-color;
+            border-bottom: 2px solid $global-theme-primary-color;
           }
         }
       }
