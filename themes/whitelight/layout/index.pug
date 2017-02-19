@@ -1,4 +1,18 @@
 extends partial/layout.pug
 
 block container
-    p Hello Kitty
+    section#index-container
+        ul.ul-posts
+            - page.posts.each(function(post){
+                li
+                    article
+                        h1.h1-post-title
+                            a(href=url_for(post.path))
+                                = post.title
+                        span.span-post-date
+                            = date(post.date, 'll')
+                        .post-excerpt
+                            != post.excerpt
+                        a.a-read-more(href=url_for(post.path))
+                            = __('more')
+            - })

@@ -3,13 +3,13 @@ footer
     ul.ul-socials
         each value, key in theme.socials
             li
-                a(class="iconfont icon-" + key href=value target="_blank")
+                a(class="iconfont icon-" + key href=url_for(value) target="_blank")
     .copyright
         -
             var currentDate = new Date();
             var year = currentDate.getFullYear();
         p &copy; #{year} #{config.author}
         p
-            = "Powered by "
+            = 'Powered by '
             a(href="https://hexo.io/" target="_blank")
-                = "Hexo"
+                = 'Hexo'
