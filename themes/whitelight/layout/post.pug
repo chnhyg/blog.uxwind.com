@@ -1,1 +1,11 @@
 extends partial/layout.pug
+
+block container
+    #post-container
+        article
+            h1.h1-post-title
+                = page.title
+            span.span-post-date
+                = date(page.date, 'll')
+            .post-content
+                != page.content
