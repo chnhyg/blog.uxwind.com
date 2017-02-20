@@ -79,3 +79,6 @@ deploy:
   repo: git@git.coding.net:chnhyg/chnhyg.git
   branch: coding-pages
   message:
+
+node_sass:
+  outputStyle: compressed
