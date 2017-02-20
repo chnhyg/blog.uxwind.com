@@ -1,0 +1,41 @@
+#archive-container {
+  .ul-archives {
+    list-style-type: none;
+    margin: 0 auto;
+    width: 600px;
+
+    li {
+      line-height: 2;
+
+      &.li-year {
+
+      }
+
+      &.li-post {
+        .span-post-date {
+          display: inline-block;
+          padding: 0 24px 0 25px;
+          border-right: 1px solid $global-hint-text-color;
+          width: 100px;
+          text-align: right;
+        }
+
+        .a-post-link {
+          display: inline-block;
+          padding: 0 25px;
+          width: 400px;
+          text-align: left;
+          vertical-align: bottom;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+
+          &:hover {
+            text-overflow: inherit;
+            overflow: visible;
+          }
+        }
+      }
+    }
+  }
+}
