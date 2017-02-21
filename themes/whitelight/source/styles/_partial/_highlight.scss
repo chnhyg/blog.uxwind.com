@@ -1,0 +1,80 @@
+$highlight-background-color: #2B2B2B;
+
+$highlight-primary-text-color: #A9B7C6;
+
+$highlight-keyword-text-color: #CC7832;
+
+$highlight-title-text-color: #FFC66D;
+
+$highlight-comment-text-color: #808080;
+
+$highlight-string-text-color: #6A8759;
+
+$highlight-regexp-text-color: #6A8759;
+
+$highlight-number-text-color: #6897BB;
+
+#post-container,
+#about-container {
+  article {
+    .post-content {
+      .highlight, code {
+        color: $highlight-primary-text-color;
+        font-family: $global-monospace-font-family;
+        background-color: $highlight-background-color;
+      }
+
+      .highlight {
+        padding: 10px 20px;
+        border-radius: 10px;
+        overflow-x: auto;
+
+        table, tr, td {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          border-collapse: collapse;
+        }
+
+        .gutter {
+          display: none;
+        }
+
+        .code pre {
+          margin: 0;
+        }
+      }
+
+      code {
+        padding: 2px 4px;
+        border-radius: 5px;
+      }
+
+      pre {
+        .keyword {
+          color: $highlight-keyword-text-color;
+        }
+
+        .title {
+          color: $highlight-title-text-color;
+        }
+
+        .comment {
+          color: $highlight-comment-text-color;
+        }
+
+        .string {
+          color: $highlight-string-text-color;
+        }
+
+        .regexp {
+          color: $highlight-regexp-text-color;
+        }
+
+        .number {
+          color: $highlight-number-text-color;
+        }
+      }
+    }
+  }
+}
