@@ -4,7 +4,7 @@ $highlight-primary-text-color: #A9B7C6;
 
 $highlight-text-color-map: (
         keyword: #CC7832,
-        built_in: $highlight-primary-text-color,
+        built_in: #FFC66D,
         type: $highlight-primary-text-color,
         literal: #CC7832,
         number: #6897BB,
@@ -56,52 +56,70 @@ $highlight-text-color-map: (
 #about-container {
   article {
     .post-content {
-      .highlight, code {
-        color: $highlight-primary-text-color;
-        font-family: $global-monospace-font-family;
-        background-color: $highlight-background-color;
-      }
-
       .highlight {
-        padding: 10px 20px;
         border-radius: 5px;
         overflow-x: auto;
 
-        table, tr, td {
-          margin: 0;
-          padding: 0;
+        table, tr {
           width: 100%;
+        }
+
+        table, tr, td {
           border-collapse: collapse;
         }
+      }
 
-        .gutter {
-          display: none;
-        }
+      .gutter, .code, code {
+        font-family: $global-monospace-font-family;
+      }
 
-        .code pre {
+      .gutter {
+        padding: 10px 10px 10px 20px;
+        border-right: 1px solid #555555;
+        width: 30px;
+        max-width: 30px;
+        color: #606366;
+        text-align: right;
+        background-color: #313335;
+
+        pre {
           margin: 0;
+        }
+      }
+
+      .code {
+        padding: 10px 20px 10px 10px;
+        color: $highlight-primary-text-color;
+        background-color: $highlight-background-color;
+
+        pre {
+          margin: 0;
+
+          .line {
+            height: $global-font-size * $global-line-height;
+
+            @each $key, $value in $highlight-text-color-map {
+              .#{$key} {
+                color: $value;
+              }
+            }
+
+            .tag .string {
+              color: #A5C261;
+            }
+
+            .comment * {
+              color: inherit;
+            }
+          }
         }
       }
 
       code {
-        padding: 2px 4px;
+        padding: 1px 4px;
         border-radius: 5px;
-      }
-
-      pre {
-        @each $key, $value in $highlight-text-color-map {
-          .#{$key} {
-            color: $value;
-          }
-        }
-
-        .tag .string {
-          color: #A5C261;
-        }
-
-        .comment * {
-          color: inherit;
-        }
+        color: $highlight-primary-text-color;
+        background-color: $highlight-background-color;
       }
     }
   }
