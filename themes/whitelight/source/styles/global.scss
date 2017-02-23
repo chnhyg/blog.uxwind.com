@@ -36,11 +36,6 @@ $global-line-height: 1.5 !default;
   background-color: $global-theme-light-color;
 }
 
-ul, ol {
-  margin: 0;
-  padding: 0;
-}
-
 a {
   color: $global-theme-primary-color;
   text-decoration: none;
@@ -57,6 +52,26 @@ a {
   &:active {
     color: $global-theme-dark-color;
   }
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5, h6 {
+  font-size: 16px;
 }
 
 .clearfix::after {
