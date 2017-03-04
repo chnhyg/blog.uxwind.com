@@ -2,6 +2,7 @@ $global-main-width: 980px !default;
 
 body {
   border-top: 2px solid $global-theme-primary-color;
+  min-width: $global-main-width;
   color: $global-primary-text-color;
   font-family: $global-font-family;
   font-size: $global-font-size;
@@ -14,7 +15,7 @@ body {
   width: $global-main-width;
 
   header {
-    margin: 25px auto;
+    margin: 25px;
     line-height: 2;
 
     .title-container {
@@ -55,12 +56,12 @@ body {
     }
   }
 
-  #container {
-    margin: 25px auto;
+  > div {
+    margin: 25px;
   }
 
   footer {
-    margin: 25px auto;
+    margin: 25px;
     line-height: 2;
     text-align: center;
 
