@@ -1,8 +1,5 @@
-$global-main-width: 980px !default;
-
 body {
   border-top: 2px solid $global-theme-primary-color;
-  min-width: $global-main-width;
   color: $global-primary-text-color;
   font-family: $global-font-family;
   font-size: $global-font-size;
@@ -95,6 +92,31 @@ body {
     .copyright {
       p {
         margin: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $global-main-width) {
+  #main {
+    width: initial;
+
+    header {
+      .title-container {
+        a {
+          display: block;
+          margin: initial;
+          text-align: center;
+        }
+
+        span {
+          display: block;
+          text-align: center;
+        }
+      }
+
+      ul.ul-nav {
+        text-align: center;
       }
     }
   }

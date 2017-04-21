@@ -40,3 +40,30 @@
     }
   }
 }
+
+@media screen and (max-width: $global-main-width) {
+  #archive-container {
+    .ul-archives {
+      width: initial;
+
+      li {
+        &.li-year {
+          text-align: center;
+        }
+
+        &.li-post {
+          .span-post-date {
+            display: none;
+          }
+
+          .a-post-link {
+            display: block;
+            padding: initial;
+            width: initial;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
