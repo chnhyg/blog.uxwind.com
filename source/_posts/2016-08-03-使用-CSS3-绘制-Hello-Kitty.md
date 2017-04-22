@@ -3,12 +3,13 @@ title: 使用 CSS3 绘制 Hello Kitty
 date: 2016-08-03 13:06:54
 permalink: css3-hello-kitty
 categories:
+- 技术
 tags:
 - CSS3
 - Hello Kitty
 ---
 
-偶然间看到了 SegmentFault 上的[一篇文章](https://segmentfault.com/a/1190000005115427)，感觉这个 Hello Kitty 画的还不错，心血来潮也用 CSS3 画了个 Hello Kitty，现在在这里记录一下详细的绘制过程。想要源码、素材、在线演示的同学可以直接拉到最下面。
+偶然间看到了 SegmentFault 上的 [一篇文章](https://segmentfault.com/a/1190000005115427)，感觉这个 Hello Kitty 画的还不错，心血来潮也用 CSS3 画了个 Hello Kitty，现在在这里记录一下详细的绘制过程。想要源码、素材、在线演示的同学可以直接拉到最下面。
 
 <!-- more -->
 

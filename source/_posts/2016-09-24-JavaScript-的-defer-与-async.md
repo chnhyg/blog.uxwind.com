@@ -3,10 +3,9 @@ title: JavaScript 的 defer 与 async
 date: 2016-09-24 20:11:09
 permalink: defer-and-async
 categories:
+- 技术
 tags:
 - JavaScript
-- defer
-- async
 ---
 
 当解析器遇到 script 标签时，文档的解析将停止，并立即下载并执行脚本，脚本执行完毕后将继续解析文档。但是我们可以将脚本标记为 defer，这样就不会停止文档解析，等到文档解析完成才执行脚本，也可以将脚本标记为 async，以便由其他线程对脚本进行解析和执行。

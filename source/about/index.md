@@ -6,7 +6,13 @@ layout: about
 
 ## 关于我
 
-我的名字是胡阳广(Lyon Hu)，你可以叫我 Wind。大爱 Hello Kitty，热爱用户体验设计，喜欢旅行，读书，编程，喜欢一切美好的事物，以及一切可爱的事物。
+我的名字是胡阳广（Lyon Hu），你可以叫我 Wind。
+
+大爱 Hello Kitty，热爱用户体验设计。喜欢旅行、读书、编程；喜欢音乐、电影、摄影；喜欢一切美好的事物，以及一切可爱的事物。
+
+## 关于博文
+
+主要写技术、工作、生活、杂谈这四大类的文章。
 
 ## 关于域名
 
@@ -14,4 +20,4 @@ layout: about
 
 ## 联系我
 
-E-mail: chn.yslner@outlook.com
+E-mail: chn.yslner[at]outlook.com

@@ -3,6 +3,7 @@ title: 远程调试 ASP.NET MVC 项目
 date: 2016-07-26 13:39:02
 permalink: remote-debugger
 categories:
+- 技术
 tags:
 - ASP.NET MVC
 - 调试
