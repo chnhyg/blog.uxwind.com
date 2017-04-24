@@ -15,26 +15,18 @@
       &.li-post {
         .span-post-date {
           display: inline-block;
-          padding: 0 24px 0 25px;
-          border-right: 1px solid $global-hint-text-color;
+          padding: 0 25px;
           width: 100px;
           text-align: right;
+          vertical-align: top;
         }
 
         .a-post-link {
           display: inline-block;
-          padding: 0 25px;
+          padding: 0 25px 0 24px;
+          border-left: 1px solid $global-hint-text-color;
           width: 400px;
           text-align: left;
-          vertical-align: bottom;
-          white-space: nowrap;
-          text-overflow: ellipsis;
-          overflow: hidden;
-
-          &:hover {
-            text-overflow: inherit;
-            overflow: visible;
-          }
         }
       }
     }
@@ -53,12 +45,17 @@
 
         &.li-post {
           .span-post-date {
-            display: none;
+            display: block;
+            padding: initial;
+            width: initial;
+            text-align: center;
+            vertical-align: initial;
           }
 
           .a-post-link {
             display: block;
             padding: initial;
+            border: initial;
             width: initial;
             text-align: center;
           }
