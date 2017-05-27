@@ -8,16 +8,16 @@
     "start": "hexo server",
     "deploy": "hexo clean && hexo generate && hexo deploy"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://git.coding.net/chnhyg/chnhyg.git"
+  },
   "author": {
     "name": "Lyon Hu",
     "email": "chn.yslner@outlook.com",
     "url": "https://uxwind.me"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://git.coding.net/chnhyg/chnhyg.git"
-  },
-  "license": "BSD-3-Clause",
+  "license": "MIT",
   "hexo": {
     "version": "3.2.2"
   },
