@@ -44,6 +44,11 @@ body {
           width: 100px;
           color: inherit;
           text-align: center;
+          -webkit-transition: border .2s;
+          -moz-transition: border .2s;
+          -ms-transition: border .2s;
+          -o-transition: border .2s;
+          transition: border .2s;
 
           &.active, &:hover {
             border-bottom: 2px solid $global-theme-primary-color;

@@ -1,10 +1,10 @@
 $global-theme-x-light-color: #FCE4EC !default; // 50
 
-$global-theme-light-color: #F48FB1 !default; // 200
+$global-theme-light-color: #FF6090 !default;
 
 $global-theme-primary-color: #E91E63 !default; // 500
 
-$global-theme-dark-color: #AD1457 !default; // 800
+$global-theme-dark-color: #B0003A !default;
 
 $global-black-color: rgb(33, 33, 33) !default;
 
@@ -18,9 +18,9 @@ $global-hint-text-color: rgba(33, 33, 33, .38) !default;
 
 $global-split-line-color: rgba(33, 33, 33, .12) !default;
 
-$global-font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$global-font-family: "Helvetica Neue", Helvetica, "Microsoft YaHei", Arial, sans-serif !default;
 
-$global-monospace-font-family: Consolas, Monaco, Menlo, Consolas, monospace !default;
+$global-monospace-font-family: Menlo, Monaco, Consolas, monospace !default;
 
 $global-font-size: 16px !default;
 
