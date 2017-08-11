@@ -84,6 +84,8 @@ h5, h6 {
   visibility: hidden;
 }
 
+@import "normalize";
+
 @import "_partial/layout";
 @import "_partial/index";
 @import "_partial/archive";
