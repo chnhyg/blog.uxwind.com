@@ -13,8 +13,10 @@ header
                     when key === 'categories' && is_category()
                     when key === 'tags' && is_tag()
                     when key === 'about' && page.layout === 'about'
-                        a.active(href=url_for(value))
+                        a.active(class="iconfont icon-" + key href=url_for(value))
+                        a.active(class="word" href=url_for(value))
                             = __(key)
                     default
-                        a(href=url_for(value))
+                        a(class="iconfont icon-" + key href=url_for(value))
+                        a(class="word" href=url_for(value))
                             = __(key)

@@ -38,12 +38,16 @@ body {
         display: inline-block;
         margin: 0 5px;
 
-        a {
+        a.iconfont {
+          display: none;
+        }
+
+        a.word {
           display: block;
-          border-bottom: 2px solid transparent;
           width: 100px;
           color: inherit;
           text-align: center;
+          border-bottom: 2px solid transparent;
           -webkit-transition: border .2s;
           -moz-transition: border .2s;
           -ms-transition: border .2s;
@@ -78,10 +82,15 @@ body {
 
         a {
           display: block;
-          width: 36px;
+          width: 48px;
           color: inherit;
           font-size: 24px;
           text-align: center;
+          -webkit-transition: color .2s;
+          -moz-transition: color .2s;
+          -ms-transition: color .2s;
+          -o-transition: color .2s;
+          transition: color .2s;
 
           &:hover {
             @extend a:hover;
@@ -122,6 +131,28 @@ body {
 
       ul.ul-nav {
         text-align: center;
+
+        li {
+          a.iconfont {
+            display: block;
+            width: 48px;
+            color: inherit;
+            font-size: 24px;
+            -webkit-transition: color .2s;
+            -moz-transition: color .2s;
+            -ms-transition: color .2s;
+            -o-transition: color .2s;
+            transition: color .2s;
+
+            &.active, &:hover {
+              color: $global-theme-primary-color;
+            }
+          }
+
+          a.word {
+            display: none;
+          }
+        }
       }
     }
   }
