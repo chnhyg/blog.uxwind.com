@@ -22,6 +22,14 @@ article {
       }
     }
 
+    blockquote {
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 1em;
+      padding-right: 1em;
+      border-left: 4px solid $global-theme-primary-color;
+    }
+
     figure.highlight {
       margin-left: 0;
       margin-right: 0;
