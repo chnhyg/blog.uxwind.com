@@ -3,7 +3,7 @@ title: 使用 CSS3 绘制 Hello Kitty
 date: 2016-08-03 13:06:54
 permalink: css3-hello-kitty
 categories:
-- 技术
+- 开发
 tags:
 - CSS3
 - Hello Kitty
@@ -258,7 +258,8 @@ tags:
 ## 最后
 
 完整源码及素材：https://github.com/chnhyg/css3-hello-kitty
-在线演示：http://chnhyg.coding.me/css3-hello-kitty
+
+在线演示：https://chnhyg.coding.me/css3-hello-kitty
 
 [1]: https://oawrwnnqp.qnssl.com/2016/08/03/css3-hello-kitty/1024px-Hello_Kitty_logo.svg.png
 [2]: https://oawrwnnqp.qnssl.com/2016/08/03/css3-hello-kitty/%5DWBG%60%7D4W_%7D4%28%5D%5B3~C96T@A3.png

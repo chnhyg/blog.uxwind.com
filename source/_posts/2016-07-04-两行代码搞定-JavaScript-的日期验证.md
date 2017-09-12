@@ -3,7 +3,7 @@ title: 两行代码搞定 JavaScript 的日期验证
 date: 2016-07-04 12:54:10
 permalink: javascript-date-validation
 categories:
-- 技术
+- 开发
 tags:
 - JavaScript
 - 日期

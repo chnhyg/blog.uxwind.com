@@ -3,7 +3,7 @@ title: JavaScript 的 defer 与 async
 date: 2016-09-24 20:11:09
 permalink: defer-and-async
 categories:
-- 技术
+- 开发
 tags:
 - JavaScript
 ---
