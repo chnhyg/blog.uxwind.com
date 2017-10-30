@@ -22,6 +22,10 @@ article {
       }
     }
 
+    img {
+      max-width: 100%;
+    }
+
     blockquote {
       margin-left: 0;
       margin-right: 0;
@@ -41,9 +45,7 @@ article {
   article {
     .post-content,
     .post-excerpt {
-      img {
-        max-width: 100%;
-      }
+
     }
   }
 }
