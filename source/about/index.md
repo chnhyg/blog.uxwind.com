@@ -30,7 +30,7 @@ layout: about
 
 WeChat: ssquln
 
-E-mail: chn.yslner@outlook.com
+E-mail: szxmsu@gmail.com
 
 GitHub: https://github.com/chnhyg
 
