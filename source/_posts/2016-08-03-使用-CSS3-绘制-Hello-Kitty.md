@@ -9,7 +9,7 @@ tags:
 - Hello Kitty
 ---
 
-偶然间看到了 SegmentFault 上的 [一篇文章](https://segmentfault.com/a/1190000005115427)，感觉这个 Hello Kitty 画的还不错，心血来潮也用 CSS3 画了个 Hello Kitty，现在在这里记录一下详细的绘制过程。想要源码、素材、在线演示的同学可以直接拉到最下面。
+偶然间看到了 SegmentFault 上的 [一篇文章](https://segmentfault.com/a/1190000005115427)，感觉这个 Hello Kitty 画得还不错，心血来潮也用 CSS3 画了个 Hello Kitty，现在在这里记录一下详细的绘制过程。想要源码、素材、在线演示的同学可以直接拉到最下面。
 
 <!-- more -->
 
@@ -72,7 +72,7 @@ tags:
 
 ## 开始绘制
 
-可以利用 Photoshop 的参考线精确的计算出元素的 left、top、width、height、border-width 以及四个角的水平 radius 值和垂直 radius 值，有偏差的地方再微调一下基本就可以了。
+可以利用 Photoshop 的参考线精确地计算出元素的 left、top、width、height、border-width 以及四个角的水平 radius 值和垂直 radius 值，有偏差的地方再微调一下基本就可以了。
 
 ![图片][2]
 
@@ -191,7 +191,7 @@ tags:
 
 ![图片][7]
 
-右耳画的比较粗糙，因为马上就要画蝴蝶结了。
+右耳画得比较粗糙，因为马上就要画蝴蝶结了。
 
 #### 蝴蝶结
 
