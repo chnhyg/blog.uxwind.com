@@ -1,12 +1,7 @@
 ﻿---
 title: 使用 CSS3 绘制 Hello Kitty
-date: 2016-08-03 13:06:54
+date: 2016-08-03
 permalink: css3-hello-kitty
-categories:
-- 开发
-tags:
-- CSS3
-- Hello Kitty
 ---
 
 偶然间看到了 SegmentFault 上的 [一篇文章](https://segmentfault.com/a/1190000005115427)，感觉这个 Hello Kitty 画得还不错，心血来潮也用 CSS3 画了个 Hello Kitty，现在在这里记录一下详细的绘制过程。想要源码、素材、在线演示的同学可以直接拉到最下面。
@@ -15,7 +10,7 @@ tags:
 
 我们先看下原图：
 
-![图片][1]
+![hello-kitty-logo](https://static.uxwind.com/2016/08/03/css3-hello-kitty/1024px-Hello_Kitty_logo.svg.png)
 
 ## 结构分解
 
@@ -74,7 +69,7 @@ tags:
 
 可以利用 Photoshop 的参考线精确地计算出元素的 left、top、width、height、border-width 以及四个角的水平 radius 值和垂直 radius 值，有偏差的地方再微调一下基本就可以了。
 
-![图片][2]
+![calculation](https://static.uxwind.com/2016/08/03/css3-hello-kitty/calculation.png)
 
 #### 脸蛋
 
@@ -97,7 +92,7 @@ tags:
 }
 ```
 
-![图片][3]
+![face](https://static.uxwind.com/2016/08/03/css3-hello-kitty/face.png)
 
 #### 左耳
 
@@ -119,7 +114,7 @@ tags:
 }
 ```
 
-![图片][4]
+![left-ear](https://static.uxwind.com/2016/08/03/css3-hello-kitty/left-ear.png)
 
 让耳朵和脸蛋连为一体：
 
@@ -137,7 +132,7 @@ tags:
 }
 ```
 
-![图片][5]
+![left-ear-clean](https://static.uxwind.com/2016/08/03/css3-hello-kitty/left-ear-clean.png)
 
 再稍加点缀，美化一下：
 
@@ -157,7 +152,7 @@ tags:
 }
 ```
 
-![图片][6]
+![left-ear-beautify](https://static.uxwind.com/2016/08/03/css3-hello-kitty/left-ear-beautify.png)
 
 #### 右耳
 
@@ -189,7 +184,7 @@ tags:
 }
 ```
 
-![图片][7]
+![right-ear](https://static.uxwind.com/2016/08/03/css3-hello-kitty/right-ear.png)
 
 右耳画得比较粗糙，因为马上就要画蝴蝶结了。
 
@@ -199,19 +194,19 @@ tags:
 
 代码量实在太多，就不贴出来了，大概思路就这样子。
 
-![图片][8]
+![bowknot-step-1](https://static.uxwind.com/2016/08/03/css3-hello-kitty/bowknot-step-1.png)
 
-![图片][9]
+![bowknot-step-2](https://static.uxwind.com/2016/08/03/css3-hello-kitty/bowknot-step-2.png)
 
-![图片][10]
+![bowknot-step-3](https://static.uxwind.com/2016/08/03/css3-hello-kitty/bowknot-step-3.png)
 
-![图片][11]
+![bowknot-step-4](https://static.uxwind.com/2016/08/03/css3-hello-kitty/bowknot-step-4.png)
 
 #### 眼睛，鼻子
 
 眼睛和鼻子相对简单，就不贴代码了。
 
-![图片][12]
+![eyes-and-nose](https://static.uxwind.com/2016/08/03/css3-hello-kitty/eyes-and-nose.png)
 
 #### 胡须
 
@@ -253,24 +248,10 @@ tags:
 
 现在，整个 Hello Kitty 就画完了，有没有觉得很可爱？`~~(ฅ>ω<*ฅ)~~`。
 
-![图片][13]
+![finished](https://static.uxwind.com/2016/08/03/css3-hello-kitty/finished.png)
 
 ## 最后
 
 完整源码及素材：https://github.com/chnhyg/css3-hello-kitty
 
 在线演示：https://chnhyg.coding.me/css3-hello-kitty
-
-[1]: https://oawrwnnqp.qnssl.com/2016/08/03/css3-hello-kitty/1024px-Hello_Kitty_logo.svg.png
-[2]: https://oawrwnnqp.qnssl.com/2016/08/03/css3-hello-kitty/%5DWBG%60%7D4W_%7D4%28%5D%5B3~C96T@A3.png
-[3]: https://oawrwnnqp.qnssl.com/2016/08/03/css3-hello-kitty/1LM0%5DP7OWJD8O56DH1SOM1Z.png
-[4]: https://oawrwnnqp.qnssl.com/2016/08/03/css3-hello-kitty/TVRED%7D8W%60Q%25~5VOD_0W%5DO%7BW.png
-[5]: https://oawrwnnqp.qnssl.com/2016/08/03/css3-hello-kitty/V%7B%29~UC%25I1X@@%25NJWTD7FHSG.png
-[6]: https://oawrwnnqp.qnssl.com/2016/08/03/css3-hello-kitty/RN%5B@X83B%7BX%25RL0WU%7BE$DG%252.png
-[7]: https://oawrwnnqp.qnssl.com/2016/08/03/css3-hello-kitty/BRZTHE97%60EVS%7DQTU_M19R%7DI.png
-[8]: https://oawrwnnqp.qnssl.com/2016/08/03/css3-hello-kitty/%28%5DM%29S%29R60%7DK9L~SQ%298%602%25Y6.png
-[9]: https://oawrwnnqp.qnssl.com/2016/08/03/css3-hello-kitty/T6%28YS%60%28YWBTU74@%7B$1%29%7DF~V.png
-[10]: https://oawrwnnqp.qnssl.com/2016/08/03/css3-hello-kitty/8%25%29JEBDT8DSB%7D0%25FA1XZB3Q.png
-[11]: https://oawrwnnqp.qnssl.com/2016/08/03/css3-hello-kitty/$KLNT%25L1QP8STLEHFVU$18C.png
-[12]: https://oawrwnnqp.qnssl.com/2016/08/03/css3-hello-kitty/%5D044E%60D%7DAG%29%25M%5BE~E~@%29KLJ.png
-[13]: https://oawrwnnqp.qnssl.com/2016/08/03/css3-hello-kitty/%5D1~8NN620M47CG_PLNO%7B78U.png
