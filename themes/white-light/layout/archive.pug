@@ -1,0 +1,24 @@
+extends partial/layout.pug
+
+block title
+    title #{__('archives')} - #{config.title}
+
+block container
+    #archive-container
+        ul.ul-archives
+            - var year = 0;
+            - page.posts.each(function(post) {
+            - var currentYear = date(post.date, 'YYYY');
+            - var hasChanged = year !== currentYear;
+            - year = currentYear;
+
+            if hasChanged
+                li.li-year
+                    h2
+                        = currentYear
+            li.li-post
+                span.span-post-date
+                    = date(post.date, 'MMMDo')
+                a.a-post-link(href=url_for(post.path))
+                    = post.title
+            - })

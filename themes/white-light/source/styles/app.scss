@@ -1,0 +1,96 @@
+$global-theme-x-light-color: #FCE4EC !default; // 50
+
+$global-theme-light-color: #FF6090 !default;
+
+$global-theme-primary-color: #E91E63 !default; // 500
+
+$global-theme-dark-color: #B0003A !default;
+
+$global-black-color: rgb(33, 33, 33) !default;
+
+$global-white-color: rgb(250, 250, 250) !default;
+
+$global-primary-text-color: rgba(33, 33, 33, .87) !default;
+
+$global-secondary-text-color: rgba(33, 33, 33, .54) !default;
+
+$global-hint-text-color: rgba(33, 33, 33, .38) !default;
+
+$global-split-line-color: rgba(33, 33, 33, .12) !default;
+
+$global-font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Segoe UI", "Microsoft YaHei", 微软雅黑, sans-serif !default;
+
+$global-monospace-font-family: Menlo, Hack, Monaco, Consolas, monospace !default;
+
+$global-font-size: 16px !default;
+
+$global-line-height: 1.5 !default;
+
+$global-main-width: 980px !default;
+
+::selection {
+  color: $global-white-color;
+  background-color: $global-theme-light-color;
+}
+
+::-moz-selection {
+  color: $global-white-color;
+  background-color: $global-theme-light-color;
+}
+
+a {
+  color: $global-theme-primary-color;
+  text-decoration: none;
+  -webkit-transition: color .2s;
+  -moz-transition: color .2s;
+  -ms-transition: color .2s;
+  -o-transition: color .2s;
+  transition: color .2s;
+
+  &:hover {
+    color: $global-theme-light-color;
+  }
+
+  &:active {
+    color: $global-theme-dark-color;
+  }
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5, h6 {
+  font-size: 16px;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  clear: both;
+}
+
+@import "normalize";
+
+@import "_partial/layout";
+@import "_partial/index";
+@import "_partial/archive";
+@import "_partial/post";
+@import "_partial/about";
+@import "_partial/content";
+@import "_partial/highlight";

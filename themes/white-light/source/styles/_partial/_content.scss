@@ -1,0 +1,66 @@
+article {
+  .post-content,
+  .post-excerpt {
+    h1, h2, h3, h4 {
+      .headerlink {
+        display: none;
+        text-align: center;
+
+        &::before {
+          content: '\e660';
+          font-family: iconfont;
+        }
+      }
+
+      &:hover .headerlink {
+        display: inline-block;
+      }
+    }
+
+    h1 .headerlink {
+      margin-left: -36px;
+      width: 36px;
+    }
+
+    h2 .headerlink {
+      margin-left: -32px;
+      width: 32px;
+    }
+
+    h3 .headerlink {
+      margin-left: -28px;
+      width: 28px;
+    }
+
+    h4 .headerlink {
+      margin-left: -24px;
+      width: 24px;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    blockquote {
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 1em;
+      padding-right: 1em;
+      border-left: 4px solid $global-theme-primary-color;
+    }
+
+    figure.highlight {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}
+
+@media screen and (max-width: $global-main-width) {
+  article {
+    .post-content,
+    .post-excerpt {
+
+    }
+  }
+}

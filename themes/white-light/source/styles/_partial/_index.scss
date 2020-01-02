@@ -1,0 +1,45 @@
+#index-container {
+  .ul-posts {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    li {
+      border-bottom: 1px solid $global-hint-text-color;
+
+      article {
+        margin: 25px 0;
+
+        .h1-post-title {
+          a {
+            color: inherit;
+
+            &:hover {
+              @extend a:hover;
+            }
+
+            &:active {
+              @extend a:active;
+            }
+          }
+        }
+
+        .span-post-date {
+          color: $global-secondary-text-color;
+        }
+
+        .post-excerpt {
+
+        }
+
+        .a-read-full-text {
+
+        }
+      }
+    }
+  }
+
+  .all-posts {
+    text-align: right;
+  }
+}

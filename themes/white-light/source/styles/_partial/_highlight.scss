@@ -1,0 +1,131 @@
+$highlight-background-color: #2B2B2B;
+
+$highlight-primary-text-color: #A9B7C6;
+
+$highlight-text-color-map: (
+        keyword: #CC7832,
+        built_in: #FFC66D,
+        type: $highlight-primary-text-color,
+        literal: #CC7832,
+        number: #6897BB,
+        regexp: #6A8759,
+        string: #6A8759,
+        subst: #6A8759,
+        symbol:$highlight-primary-text-color,
+        class: $highlight-primary-text-color,
+        function: $highlight-primary-text-color,
+        title: #FFC66D,
+        params: $highlight-primary-text-color,
+  //
+        comment: #808080,
+        doctag: $highlight-primary-text-color,
+        meta: $highlight-primary-text-color,
+        meta-keyword: $highlight-primary-text-color,
+        meta-string: $highlight-primary-text-color,
+  //
+        section: $highlight-primary-text-color,
+        tag: #E8BF6A,
+        name: #E8BF6A,
+        builtin-name: $highlight-primary-text-color,
+        attr: #BABABA,
+        attribute: #BABABA,
+        variable: $highlight-primary-text-color,
+  //
+        bullet: $highlight-primary-text-color,
+        code: $highlight-primary-text-color,
+        emphasis: $highlight-primary-text-color,
+        strong: $highlight-primary-text-color,
+        formula: $highlight-primary-text-color,
+        link: $highlight-primary-text-color,
+        quote: $highlight-primary-text-color,
+  //
+        selector-tag: #CC7832,
+        selector-id: #E8BF6A,
+        selector-class: #E8BF6A,
+        selector-attr: #E8BF6A,
+        selector-pseudo: #E8BF6A,
+  //
+        template-tag: $highlight-primary-text-color,
+        template-variable: $highlight-primary-text-color,
+  //
+        addition: $highlight-primary-text-color,
+        deletion: $highlight-primary-text-color
+);
+
+#post-container,
+#about-container {
+  article {
+    .post-content {
+      .highlight {
+        border-radius: 5px;
+        overflow-x: auto;
+
+        table, tr {
+          width: 100%;
+        }
+
+        table, tr, td {
+          border-collapse: collapse;
+        }
+      }
+
+      .gutter, .code,
+      pre, code, kbd, samp {
+        font-family: $global-monospace-font-family;
+      }
+
+      .gutter {
+        padding: 10px 10px 10px 20px;
+        border-right: 1px solid #555555;
+        width: 30px;
+        max-width: 30px;
+        color: #606366;
+        text-align: right;
+        background-color: #313335;
+
+        pre {
+          margin: 0;
+        }
+      }
+
+      .code {
+        padding: 10px 20px 10px 10px;
+        color: $highlight-primary-text-color;
+        background-color: $highlight-background-color;
+
+        pre {
+          margin: 0;
+
+          .line {
+            height: $global-font-size * $global-line-height;
+
+            @each $key, $value in $highlight-text-color-map {
+              .#{$key} {
+                color: $value;
+              }
+            }
+
+            .keyword {
+              font-weight: bold;
+            }
+
+            .tag .string {
+              color: #A5C261;
+            }
+
+            .comment * {
+              color: inherit;
+            }
+          }
+        }
+      }
+
+      code {
+        padding: 1px 5px;
+        border-radius: 5px;
+        color: $global-theme-dark-color;
+        background-color: $global-theme-x-light-color;
+      }
+    }
+  }
+}

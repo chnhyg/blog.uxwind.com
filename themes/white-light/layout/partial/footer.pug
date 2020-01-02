@@ -1,0 +1,15 @@
+footer
+    if theme.socials
+    ul.ul-socials
+        each value, key in theme.socials
+            li
+                a(class="iconfont icon-" + key href=url_for(value) target="_blank" rel="noopener")
+    .copyright
+        -
+            var currentDate = new Date();
+            var year = currentDate.getFullYear();
+        p &copy; #{year} #{config.author}
+        p
+            = 'Powered by '
+            a(href="https://hexo.io/" target="_blank" rel="noopener")
+                = 'Hexo'

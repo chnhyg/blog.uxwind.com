@@ -1,0 +1,25 @@
+# Navbar
+menus:
+  home: /
+  archives: /archives/
+  # categories: /categories/
+  # tags: /tags/
+  about: /about/
+
+# Comments
+comments:
+  post: true
+  about: true
+# Disqus
+# disqus_shortname: uxwind
+
+# Social links
+socials:
+  github: https://github.com/chnhyg
+  stack-overflow: https://stackoverflow.com/users/9315645
+  twitter: https://twitter.com/chnhyg
+  email: mailto:szxmsu@gmail.com
+  rss: /atom.xml
+
+# Miscellaneous
+# google_analytics:
