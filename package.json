@@ -4,7 +4,7 @@
   "description": "Lyon Hu's blog.",
   "scripts": {
     "start": "hexo server",
-    "deploy": "hexo clean && hexo generate && hexo deploy"
+    "deploy": "./deploy.sh"
   },
   "keywords": [],
   "author": {

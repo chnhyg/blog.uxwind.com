@@ -79,8 +79,8 @@ theme: white-light
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@git.coding.net:chnhyg/chnhyg.git
-  branch: coding-pages
+  repo: git@github.com:chnhyg/blog.uxwind.com.git
+  branch: gh-pages
   message:
 
 node_sass:
