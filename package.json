@@ -1,5 +1,5 @@
 {
-  "name": "chnhyg",
+  "name": "blog.uxwind.com",
   "version": "2.0.1",
   "description": "Lyon Hu's blog.",
   "scripts": {
@@ -13,13 +13,13 @@
     "url": "https://uxwind.me/"
   },
   "license": "GPL-3.0-or-later",
-  "homepage": "https://github.com/chnhyg/chnhyg#readme",
+  "homepage": "https://github.com/chnhyg/blog.uxwind.com#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chnhyg/chnhyg.git"
+    "url": "git+https://github.com/chnhyg/blog.uxwind.com.git"
   },
   "bugs": {
-    "url": "https://github.com/chnhyg/chnhyg/issues"
+    "url": "https://github.com/chnhyg/blog.uxwind.com/issues"
   },
   "hexo": {
     "version": "3.9.0"
