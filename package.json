@@ -2,6 +2,7 @@
   "name": "blog.uxwind.com",
   "version": "2.0.1",
   "description": "Lyon Hu's blog.",
+  "private": true,
   "scripts": {
     "start": "hexo server",
     "deploy": "./deploy.sh"
