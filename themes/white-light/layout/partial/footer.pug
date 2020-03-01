@@ -3,7 +3,7 @@ footer
     ul.ul-socials
         each value, key in theme.socials
             li
-                a(class="iconfont icon-" + key href=url_for(value) target="_blank" rel="noopener")
+                a(class="fab fa-" + key href=url_for(value) target="_blank" rel="noopener")
     .copyright
         -
             var currentDate = new Date();

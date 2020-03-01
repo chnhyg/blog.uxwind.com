@@ -9,14 +9,26 @@ header
             li
                 case true
                     when key === 'home' && is_home()
-                    when key === 'archives' && is_archive()
-                    when key === 'categories' && is_category()
-                    when key === 'tags' && is_tag()
-                    when key === 'about' && page.layout === 'about'
-                        a.active(class="icon iconfont icon-" + key href=url_for(value))
+                        a.active(class="icon fas fa-home" href=url_for(value))
                         a.active(class="word" href=url_for(value))
                             = __(key)
-                    default
-                        a(class="icon iconfont icon-" + key href=url_for(value))
+                    when key === 'home'
+                        a(class="icon fas fa-home" href=url_for(value))
+                        a(class="word" href=url_for(value))
+                            = __(key)
+                    when key === 'archives' && is_archive()
+                        a.active(class="icon fas fa-archive" href=url_for(value))
+                        a.active(class="word" href=url_for(value))
+                            = __(key)
+                    when key === 'archives'
+                        a(class="icon fas fa-archive" href=url_for(value))
+                        a(class="word" href=url_for(value))
+                            = __(key)
+                    when key === 'about' && page.layout === 'about'
+                        a.active(class="icon fas fa-exclamation-circle" href=url_for(value))
+                        a.active(class="word" href=url_for(value))
+                            = __(key)
+                    when key === 'about'
+                        a(class="icon fas fa-exclamation-circle" href=url_for(value))
                         a(class="word" href=url_for(value))
                             = __(key)

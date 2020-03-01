@@ -28,7 +28,11 @@ WeChat: ssquln
 
 E-mail: szxmsu@gmail.com
 
+## SOCIALS
+
 GitHub: https://github.com/chnhyg
+
+LinkedIn：https://www.linkedin.com/in/chnhyg
 
 Stack Overflow: https://stackoverflow.com/users/9315645
 
