@@ -4,7 +4,7 @@ date: 2016-06-26 14:13:18
 layout: about
 ---
 
-## ME
+## 我
 
 我的名字是胡阳广（Lyon Hu），你可以叫我 Wind。
 
@@ -14,21 +14,23 @@ layout: about
 
 喜欢一切美好的事物，以及一切可爱的事物。
 
-#### Tags
+#### 标签
 
 User Experience Master, Full Stack Engineer, Photographer.
 
-## DOMAIN
+## 域名
 
 其实就是 UX（User Experience）和我的昵称 Wind 的组合。
 
-## CONTACTS
+## 产品
+
+[大黄狗 | 人工智能（障）基金分析助手](https://funds.uxwind.com/)
+
+## 取得联系
 
 WeChat: ssquln
 
 E-mail: szxmsu@gmail.com
-
-## SOCIALS
 
 GitHub: https://github.com/chnhyg
 
