@@ -1,7 +1,6 @@
 ---
 title: 聊一聊用户体验
 date: 2017-09-11
-permalink: user-experience
 ---
 
 突然想聊一聊用户体验，聊一聊我心中的用户体验。

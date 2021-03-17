@@ -16,7 +16,7 @@ layout: about
 
 #### 标签
 
-User Experience Master, Full Stack Engineer, Photographer.
+Creator, Designer, Engineer.
 
 ## 域名
 
@@ -34,8 +34,8 @@ E-mail: szxmsu@gmail.com
 
 GitHub: https://github.com/chnhyg
 
+Twitter: https://twitter.com/chnhyg
+
 LinkedIn：https://www.linkedin.com/in/chnhyg
 
 Stack Overflow: https://stackoverflow.com/users/9315645
-
-Twitter: https://twitter.com/chnhyg
