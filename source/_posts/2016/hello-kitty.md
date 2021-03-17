@@ -70,7 +70,7 @@ date: 2016-08-03
 
 ![calculation](https://static.uxwind.com/2016/08/03/css3-hello-kitty/calculation.png)
 
-#### 脸蛋
+### 脸蛋
 
 ``` css
 .hello-kitty-div .face {
@@ -93,7 +93,7 @@ date: 2016-08-03
 
 ![face](https://static.uxwind.com/2016/08/03/css3-hello-kitty/face.png)
 
-#### 左耳
+### 左耳
 
 ``` css
 .hello-kitty-div .left-ear {
@@ -153,7 +153,7 @@ date: 2016-08-03
 
 ![left-ear-beautify](https://static.uxwind.com/2016/08/03/css3-hello-kitty/left-ear-beautify.png)
 
-#### 右耳
+### 右耳
 
 ``` css
 .hello-kitty-div .right-ear {
@@ -187,7 +187,7 @@ date: 2016-08-03
 
 右耳画得比较粗糙，因为马上就要画蝴蝶结了。
 
-#### 蝴蝶结
+### 蝴蝶结
 
 蝴蝶结分为两个外边，三个圆。外边是整个绘画过程中最难画的地方，用矩形调整 radius 参数很难做到没有偏差，因为它不像是更圆润的矩形，而像是更圆润的三角形。在这里，我们把它分成四块，各个外边各两块，在块内绘制好对应的区域，再利用 `overflow: hidden;` 来隐藏多余的部分。然后是三个圆，相对简单。
 
@@ -201,13 +201,13 @@ date: 2016-08-03
 
 ![bowknot-step-4](https://static.uxwind.com/2016/08/03/css3-hello-kitty/bowknot-step-4.png)
 
-#### 眼睛，鼻子
+### 眼睛，鼻子
 
 眼睛和鼻子相对简单，就不贴代码了。
 
 ![eyes-and-nose](https://static.uxwind.com/2016/08/03/css3-hello-kitty/eyes-and-nose.png)
 
-#### 胡须
+### 胡须
 
 因为胡须是弯弯的，所以每根胡须需要两个元素来实现，我们就用 `:before` 和 `:after` 吧。
 

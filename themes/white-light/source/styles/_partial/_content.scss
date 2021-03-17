@@ -1,40 +1,33 @@
 article {
   .post-content,
   .post-excerpt {
-    h1, h2, h3, h4 {
+    h1, h2, h3 {
       .headerlink {
+        position: absolute;
         display: none;
-        text-align: center;
 
         &::before {
           content: '\f0c1';
           font-family: 'Font Awesome 5 Free';
+          font-size: $global-font-size;
         }
       }
 
       &:hover .headerlink {
-        display: inline-block;
+        display: initial;
       }
     }
 
     h1 .headerlink {
-      margin-left: -36px;
-      width: 36px;
+      margin-left: -28px;
     }
 
     h2 .headerlink {
-      margin-left: -32px;
-      width: 32px;
+      margin-left: -24px;
     }
 
     h3 .headerlink {
-      margin-left: -28px;
-      width: 28px;
-    }
-
-    h4 .headerlink {
-      margin-left: -24px;
-      width: 24px;
+      margin-left: -20px;
     }
 
     img {
