@@ -1,6 +1,6 @@
 {
   "name": "blog.uxwind.com",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Lyon Hu's blog.",
   "private": true,
   "scripts": {
