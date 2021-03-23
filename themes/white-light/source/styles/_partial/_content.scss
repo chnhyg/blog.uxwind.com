@@ -3,8 +3,8 @@ article {
   .post-excerpt {
     h1, h2, h3 {
       .headerlink {
-        position: absolute;
         display: none;
+        text-align: center;
 
         &::before {
           content: '\f0c1';
@@ -14,20 +14,15 @@ article {
       }
 
       &:hover .headerlink {
-        display: initial;
+        display: inline-block;
       }
     }
 
-    h1 .headerlink {
-      margin-left: -28px;
-    }
-
-    h2 .headerlink {
-      margin-left: -24px;
-    }
-
+    h1 .headerlink,
+    h2 .headerlink,
     h3 .headerlink {
-      margin-left: -20px;
+      margin-left: -24px;
+      width: 24px;
     }
 
     img {
