@@ -4,7 +4,7 @@
   "description": "Lyon Hu's blog.",
   "private": true,
   "scripts": {
-    "start": "hexo server",
+    "start": "hexo server -p 5254",
     "deploy": "./deploy.sh"
   },
   "keywords": [],
