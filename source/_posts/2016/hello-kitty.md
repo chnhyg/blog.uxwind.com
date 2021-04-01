@@ -9,7 +9,7 @@ date: 2016-08-03
 
 我们先看下原图：
 
-![hello-kitty-logo](https://static.uxwind.com/2016/08/03/css3-hello-kitty/1024px-Hello_Kitty_logo.svg.png)
+![hello-kitty-logo](https://blog-static.uxwind.com/2016/hello-kitty/1024px-Hello_Kitty_logo.svg.png)
 
 ## 结构分解
 
@@ -68,7 +68,7 @@ date: 2016-08-03
 
 可以利用 Photoshop 的参考线精确地计算出元素的 left、top、width、height、border-width 以及四个角的水平 radius 值和垂直 radius 值，有偏差的地方再微调一下基本就可以了。
 
-![calculation](https://static.uxwind.com/2016/08/03/css3-hello-kitty/calculation.png)
+![calculation](https://blog-static.uxwind.com/2016/hello-kitty/calculation.png)
 
 ### 脸蛋
 
@@ -91,7 +91,7 @@ date: 2016-08-03
 }
 ```
 
-![face](https://static.uxwind.com/2016/08/03/css3-hello-kitty/face.png)
+![face](https://blog-static.uxwind.com/2016/hello-kitty/face.png)
 
 ### 左耳
 
@@ -113,7 +113,7 @@ date: 2016-08-03
 }
 ```
 
-![left-ear](https://static.uxwind.com/2016/08/03/css3-hello-kitty/left-ear.png)
+![left-ear](https://blog-static.uxwind.com/2016/hello-kitty/left-ear.png)
 
 让耳朵和脸蛋连为一体：
 
@@ -131,7 +131,7 @@ date: 2016-08-03
 }
 ```
 
-![left-ear-clean](https://static.uxwind.com/2016/08/03/css3-hello-kitty/left-ear-clean.png)
+![left-ear-clean](https://blog-static.uxwind.com/2016/hello-kitty/left-ear-clean.png)
 
 再稍加点缀，美化一下：
 
@@ -151,7 +151,7 @@ date: 2016-08-03
 }
 ```
 
-![left-ear-beautify](https://static.uxwind.com/2016/08/03/css3-hello-kitty/left-ear-beautify.png)
+![left-ear-beautify](https://blog-static.uxwind.com/2016/hello-kitty/left-ear-beautify.png)
 
 ### 右耳
 
@@ -183,7 +183,7 @@ date: 2016-08-03
 }
 ```
 
-![right-ear](https://static.uxwind.com/2016/08/03/css3-hello-kitty/right-ear.png)
+![right-ear](https://blog-static.uxwind.com/2016/hello-kitty/right-ear.png)
 
 右耳画得比较粗糙，因为马上就要画蝴蝶结了。
 
@@ -193,19 +193,19 @@ date: 2016-08-03
 
 代码量实在太多，就不贴出来了，大概思路就这样子。
 
-![bowknot-step-1](https://static.uxwind.com/2016/08/03/css3-hello-kitty/bowknot-step-1.png)
+![bowknot-step-1](https://blog-static.uxwind.com/2016/hello-kitty/bowknot-step-1.png)
 
-![bowknot-step-2](https://static.uxwind.com/2016/08/03/css3-hello-kitty/bowknot-step-2.png)
+![bowknot-step-2](https://blog-static.uxwind.com/2016/hello-kitty/bowknot-step-2.png)
 
-![bowknot-step-3](https://static.uxwind.com/2016/08/03/css3-hello-kitty/bowknot-step-3.png)
+![bowknot-step-3](https://blog-static.uxwind.com/2016/hello-kitty/bowknot-step-3.png)
 
-![bowknot-step-4](https://static.uxwind.com/2016/08/03/css3-hello-kitty/bowknot-step-4.png)
+![bowknot-step-4](https://blog-static.uxwind.com/2016/hello-kitty/bowknot-step-4.png)
 
 ### 眼睛，鼻子
 
 眼睛和鼻子相对简单，就不贴代码了。
 
-![eyes-and-nose](https://static.uxwind.com/2016/08/03/css3-hello-kitty/eyes-and-nose.png)
+![eyes-and-nose](https://blog-static.uxwind.com/2016/hello-kitty/eyes-and-nose.png)
 
 ### 胡须
 
@@ -247,7 +247,7 @@ date: 2016-08-03
 
 现在，整个 Hello Kitty 就画完了，有没有觉得很可爱？`~~(ฅ>ω<*ฅ)~~`。
 
-![finished](https://static.uxwind.com/2016/08/03/css3-hello-kitty/finished.png)
+![finished](https://blog-static.uxwind.com/2016/hello-kitty/finished.png)
 
 ## 最后
 

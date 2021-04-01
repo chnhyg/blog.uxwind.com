@@ -70,7 +70,7 @@ date: 2017-04-18
 
 随着拍摄的照片越来越多，终于从一个看见喜欢的、好看的就随手抓拍的小菜鸟，变成了一个拍每一张照片都会思考它的构图、光线等的伪摄影师。
 
-![oct-harbour](https://static.uxwind.com/2017/04/18/year-end-summary/oct-harbour.jpg)
+![oct-harbour](https://blog-static.uxwind.com/2017/year-end-summary/oct-harbour.jpg)
 
 2016 年 11 月摄于深圳市欢乐海岸。
 

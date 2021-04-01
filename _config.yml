@@ -112,10 +112,10 @@ marked:
   pedantic: false
   breaks: true
   smartLists: true
-  smartypants: true
+  smartypants: false
   quotes: '“”‘’'
   modifyAnchors: 0
-  anchorAlias: false
+  anchorAlias: true
   autolink: true
   mangle: true
   sanitizeUrl: false
@@ -124,9 +124,9 @@ marked:
   prependRoot: false
   postAsset: false
   external_link:
-    enable: false
+    enable: true
     exclude: []
-    nofollow: false
+    nofollow: true
   disableNunjucks: false
   descriptionLists: true
 
