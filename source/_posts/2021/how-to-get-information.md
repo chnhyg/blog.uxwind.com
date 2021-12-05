@@ -11,9 +11,10 @@ date: 2021-12-05
 
 在信息过载的时代，我们势必会面临着这些问题。
 
-1. 新闻、八卦、短视频，浪费了大量的时间；
-2. 学习知识、解决问题，相关信息众多，不知道怎么选择；
-3. ……
+1. 时间有限，知识无限，不知道学什么；
+2. 遇到问题，海量答案，不知道看哪个；
+3. 新闻、八卦、短视频，浪费了大量的时间；
+4. ……
 
 那么，在信息过载的时代，我们如何科学获取信息呢？这就是本文想要分享的主要话题。
 
@@ -47,7 +48,7 @@ date: 2021-12-05
 
 科学使用搜索服务，说简单也不简单，说困难也不困难，学会提炼关键字词，就能满足多数搜索需求，搭配使用搜索运算符（详见文后的参考链接），可以满足更复杂的搜索需求，比如完全匹配字词（引号）、排除特定字词（减号）、搜索特定链接（inurl）、搜索特定标题（intitle）等。
 
-我们想知道 Hello Kitty 的身高和体重，可以搜 [hello kitty height and weight](https://www.google.com/search?q=hello+kitty+height+and+weight)；我们想知道保时捷的 Panamera 的参数配置，可以搜 [porsche panamera specs](https://www.google.com/search?q=porsche+panamera+specs)；我们想知道《黑客帝国：矩阵重启》的相关信息，可以搜 [the matrix resurrections site:imdb.com](https://www.google.com/search?q=the+matrix+resurrections+site%3Aimdb.com)，这里其实用不着搜索运算符，只是说明它的用法。毫不夸张地说，搜索服务使用得当，可以找到任何想要的信息。
+我们想知道 Hello Kitty 的身高和体重，可以搜 [hello kitty height and weight](https://www.google.com/search?q=hello+kitty+height+and+weight)；我们想知道保时捷的 Panamera 的参数配置，可以搜 [porsche panamera specs](https://www.google.com/search?q=porsche+panamera+specs)；我们想查找 LinkedIn 里叫 yangguang 的人，可以搜 [site:linkedin.com/in inurl:yangguang](https://www.google.com/search?q=site%3Alinkedin.com%2Fin+inurl%3Ayangguang)。毫不夸张地说，搜索服务使用得当，可以找到任何想要的信息。
 
 哦对了，我推荐使用 Google 的搜索引擎。
 
