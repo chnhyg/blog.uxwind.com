@@ -7,7 +7,7 @@ date: 2021-12-05
 
 <!-- more -->
 
-## [What's the Problem](#anchor---what-is-the-problem)
+## [主要的问题](#anchor---what-is-the-problem)
 
 在信息过载的时代，我们势必会面临着这些问题。
 
@@ -18,7 +18,7 @@ date: 2021-12-05
 
 那么，在信息过载的时代，我们如何科学获取信息呢？这就是本文想要分享的主要话题。
 
-## [How to Solve the Problem](#anchor---how-to-solve-the-problem)
+## [如何去解决](#anchor---how-to-solve-the-problem)
 
 要想解决这个问题，首先就要了解，什么是[信噪比](https://zh.wikipedia.org/wiki/%E4%BF%A1%E5%99%AA%E6%AF%94)。信息的信噪比，说白了，就是有效信号（想要的信息）和无效噪声（不要的信息）的比值，有效信号越高或者无效噪声越低，信息的信噪比就越高，也越好。
 
@@ -48,7 +48,7 @@ date: 2021-12-05
 
 科学使用搜索服务，说简单也不简单，说困难也不困难，学会提炼关键字词，就能满足多数搜索需求，搭配使用搜索运算符（详见文后的参考链接），可以满足更复杂的搜索需求，比如完全匹配字词（引号）、排除特定字词（减号）、搜索特定链接（inurl）、搜索特定标题（intitle）等。
 
-我们想知道 Hello Kitty 的身高和体重，可以搜 [hello kitty height and weight](https://www.google.com/search?q=hello+kitty+height+and+weight)；我们想知道保时捷的 Panamera 的参数配置，可以搜 [porsche panamera specs](https://www.google.com/search?q=porsche+panamera+specs)；我们想查找 LinkedIn 里叫 yangguang 的人，可以搜 [site:linkedin.com/in inurl:yangguang](https://www.google.com/search?q=site%3Alinkedin.com%2Fin+inurl%3Ayangguang)。毫不夸张地说，搜索服务使用得当，可以找到任何想要的信息。
+我们想知道 Hello Kitty 的身高和体重，可以搜 [hello kitty height and weight](https://www.google.com/search?q=hello+kitty+height+and+weight)；我们想知道 Toyota Sprinter Trueno 的参数配置，可以搜 [toyota sprinter trueno specs](https://www.google.com/search?q=toyota+sprinter+trueno+specs)；我们想查找 LinkedIn 里叫 yangguang 的人，可以搜 [site:linkedin.com/in inurl:yangguang](https://www.google.com/search?q=site%3Alinkedin.com%2Fin+inurl%3Ayangguang)。毫不夸张地说，搜索服务使用得当，可以找到任何想要的信息。
 
 哦对了，我推荐使用 Google 的搜索引擎。
 
