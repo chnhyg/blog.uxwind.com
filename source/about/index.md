@@ -8,11 +8,13 @@ layout: about
 
 我的名字是胡阳广（Lyon Hu），你可以叫我 Wind。
 
-大爱 Hello Kitty，热爱用户体验与用户体验设计。
+喜欢 Hello Kitty，喜欢 Sakura Kinomoto。
 
-喜欢研发、设计、产品，喜欢摄影、电影、音乐。
+喜欢一切可爱的事物，以及一切美好的事物。
 
-喜欢一切美好的事物，以及一切可爱的事物。
+爱生活，喜欢摄影、电影；爱工作，喜欢研发、设计。
+
+立志成为一名快乐、上进、有爱的人，并以此影响其他人。
 
 ### 标签
 
@@ -24,11 +26,11 @@ Creator, Designer, Engineer.
 
 ## 产品
 
-[大黄狗 | 人工智能（障）基金分析助手](https://funds.uxwind.com/)
+[大黄狗，人工智能（障）基金分析助手](https://funds.uxwind.com/)
 
 ## 取得联系
 
-WeChat: ssquln
+WeChat: szxmsu
 
 E-mail: szxmsu@gmail.com
 
@@ -37,5 +39,3 @@ GitHub: https://github.com/chnhyg
 Twitter: https://twitter.com/chnhyg
 
 LinkedIn：https://www.linkedin.com/in/chnhyg
-
-Stack Overflow: https://stackoverflow.com/users/9315645
