@@ -14,13 +14,13 @@
     "url": "https://blog.uxwind.com/"
   },
   "license": "GPL-3.0-or-later",
-  "homepage": "https://github.com/chnhyg/blog.uxwind.com#readme",
+  "homepage": "https://github.com/szxmsu/blog.uxwind.com#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chnhyg/blog.uxwind.com.git"
+    "url": "git+https://github.com/szxmsu/blog.uxwind.com.git"
   },
   "bugs": {
-    "url": "https://github.com/chnhyg/blog.uxwind.com/issues"
+    "url": "https://github.com/szxmsu/blog.uxwind.com/issues"
   },
   "hexo": {
     "version": "5.4.0"

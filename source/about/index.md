@@ -34,8 +34,8 @@ WeChat: szxmsu
 
 E-mail: szxmsu@gmail.com
 
-GitHub: https://github.com/chnhyg
+GitHub: https://github.com/szxmsu
 
-Twitter: https://twitter.com/chnhyg
+Twitter: https://twitter.com/szxmsu
 
-LinkedIn：https://www.linkedin.com/in/chnhyg
+LinkedIn：https://www.linkedin.com/in/szxmsu

@@ -251,6 +251,6 @@ date: 2016-08-03
 
 ## 最后
 
-完整源码及素材：https://github.com/chnhyg/css3-hello-kitty
+完整源码及素材：https://github.com/szxmsu/css3-hello-kitty
 
-在线演示：https://chnhyg.coding.me/css3-hello-kitty
+在线演示：https://szxmsu.coding.me/css3-hello-kitty
