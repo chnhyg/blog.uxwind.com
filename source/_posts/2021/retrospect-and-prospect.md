@@ -73,8 +73,8 @@ English in Use 语法系列初级、中级已经看完。后面准备把 English
 
 这里不是从商业角度出发，不会考虑到客户的喜好，而是从个人角度出发，升华摄影，实现自我。
 
-![Modern And Traditional, FE 70-200mm F2.8 GM OSS on α7R III 1/100 sec., F5.6, ISO 4000](https://blog-static.uxwind.com/2021/retrospect-and-prospect/modern-and-traditional.jpg)
-Modern And Traditional, FE 70-200mm F2.8 GM OSS on α7R III 1/100 sec., F5.6, ISO 4000
+![Modern And Traditional, FE 70-200mm F2.8 GM OSS on Alpha 7R III, 100mm, F5.6, 1/100s, ISO 4000](https://blog-static.uxwind.com/2021/retrospect-and-prospect/modern-and-traditional.jpg)
+Modern And Traditional, FE 70-200mm F2.8 GM OSS on Alpha 7R III, 100mm, F5.6, 1/100s, ISO 4000
 
 虽说已经摸了两年的相机，也能拍出较为不错的照片，但是到目前为止，所掌握的摄影知识比较零散，没有形成知识体系，摄影也仅仅只是一个业余爱好而已。
 
