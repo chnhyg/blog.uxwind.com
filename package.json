@@ -1,11 +1,11 @@
 {
-  "name": "blog.uxwind.com",
+  "name": "szxmsu.github.io",
   "version": "2.1.0",
   "description": "Lyon Hu's blog.",
   "private": true,
   "scripts": {
     "start": "hexo server -p 5254",
-    "deploy": "./deploy.sh"
+    "deploy": "hexo clean && hexo generate && hexo deploy"
   },
   "keywords": [],
   "author": {
@@ -14,13 +14,13 @@
     "url": "https://blog.uxwind.com/"
   },
   "license": "GPL-3.0-or-later",
-  "homepage": "https://github.com/szxmsu/blog.uxwind.com#readme",
+  "homepage": "https://github.com/szxmsu/szxmsu.github.io#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/szxmsu/blog.uxwind.com.git"
+    "url": "git+https://github.com/szxmsu/szxmsu.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/szxmsu/blog.uxwind.com/issues"
+    "url": "https://github.com/szxmsu/szxmsu.github.io/issues"
   },
   "hexo": {
     "version": "5.4.2"

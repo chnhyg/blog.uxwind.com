@@ -103,7 +103,7 @@ theme: white-light
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:szxmsu/blog.uxwind.com.git
+  repo: git@github.com:szxmsu/szxmsu.github.io.git
   branch: gh-pages
   message:
 
